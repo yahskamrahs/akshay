@@ -34,7 +34,7 @@ export const ProfileSection = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-2xl transform rotate-6 group-hover:rotate-12 transition-transform duration-300" />
               <img
-                src="public/profile.jpg"
+                src="/profile.jpg"
                 alt="Profile"
                 className="relative z-10 w-full aspect-square object-cover rounded-2xl shadow-xl transform group-hover:scale-[1.02] transition-transform duration-300"
               />
