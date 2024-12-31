@@ -42,7 +42,7 @@ export const Navbar = () => {
           {/* Mobile Navigation Button */}
           <button 
             className="md:hidden text-gray-300 p-2"
-            value="Button Name"
+            aria-label="Name"
             onClick={() => setIsOpen(!isOpen)}
           >
             <Menu size={24} />
