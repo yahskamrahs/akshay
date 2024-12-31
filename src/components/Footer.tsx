@@ -9,13 +9,13 @@ export function Footer() {
           <a href="https://github.com/yahskamrahs" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Read more about Seminole tax hike">
             <Github size={24} />
           </a>
-          <a href="https://www.linkedin.com/in/akshaykumar-sharma-b803a6264/" className="text-gray-400 hover:text-cyan-400 transition-colors">
+          <a href="https://www.linkedin.com/in/akshaykumar-sharma-b803a6264/" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Read more about Seminole tax hike">
             <Linkedin size={24} />
           </a>
-          <a href="https://www.instagram.com/yahska_amrahs" className="text-gray-400 hover:text-cyan-400 transition-colors">
+          <a href="https://www.instagram.com/yahska_amrahs" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Read more about Seminole tax hike">
             <Instagram size={24} />
           </a>
-          <a href="https://x.com/i/flow/login?redirect_after_login=%2Fyahskaamrahs" className="text-gray-400 hover:text-cyan-400 transition-colors">
+          <a href="https://x.com/i/flow/login?redirect_after_login=%2Fyahskaamrahs" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Read more about Seminole tax hike">
             <Twitter size={24} />
           </a>
         </div>
