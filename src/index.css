@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px) rotateX(0deg); }
+  50% { transform: translateY(-10px) rotateX(5deg); }
+  100% { transform: translateY(0px) rotateX(0deg); }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 5px rgba(6, 182, 212, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(6, 182, 212, 0.8); }
+  100% { box-shadow: 0 0 5px rgba(6, 182, 212, 0.5); }
+}
+
+body {
+  background-color: #0a0f1a;
+  cursor: none;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(6, 182, 212, 0.2);
+  color: #fff;
+}
+
+.gradient-text {
+  background: linear-gradient(-45deg, #06b6d4, #3b82f6, #06b6d4, #3b82f6);
+  background-size: 300%;
+  animation: gradient 5s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-gpu {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* Hide cursor on interactive elements */
+a, button {
+  cursor: none;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Grid background */
+.grid-bg {
+  background-image: radial-gradient(rgba(6, 182, 212, 0.1) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Glowing elements */
+.glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* 3D Card effect */
+.card-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+}
+
+.card-3d:hover {
+  transform: translateZ(20px) rotateX(5deg) rotateY(5deg);
+}
