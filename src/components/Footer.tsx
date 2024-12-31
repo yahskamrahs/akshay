@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="py-8 border-t border-gray-800">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="flex justify-center gap-6">
-          <a href="https://github.com/yahskamrahs" className="text-gray-400 hover:text-cyan-400 transition-colors">
+          <a href="https://github.com/yahskamrahs" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Read more about Seminole tax hike">
             <Github size={24} />
           </a>
           <a href="https://www.linkedin.com/in/akshaykumar-sharma-b803a6264/" className="text-gray-400 hover:text-cyan-400 transition-colors">
