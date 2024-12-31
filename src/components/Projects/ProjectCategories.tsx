@@ -8,7 +8,7 @@ const categories = [
       {
         title: "Ticket Booking System",
         description: "A smart software for booking tickets online.",
-        image: "public/bingo.png",
+        image: "/bingo.png",
         technologies: ["HTML", "CSS3", "JavaScript", "PHP"],
         githubUrl: "https://github.com/yahskamrahs",
         liveUrl: "https://booking.bingocircus.co.in/"
@@ -16,7 +16,7 @@ const categories = [
       {
         title: "Arc Architects Portfolio",
         description: "An Interactive Portfolio for Arc Architects.",
-        image: "public/arctumb.jpg",
+        image: "/arctumb.jpg",
         technologies: ["Wordpress", "HTML", "CSS", "JavaScript"],
         githubUrl: "https://github.com/yahskamrahs",
         liveUrl: "https://arcarchitects.co.in/"
@@ -24,7 +24,7 @@ const categories = [
       {
         title: "Simple Math",
         description: "Web based Calculator to solve complex calculations.",
-        image: "public/simplemath.jpg",
+        image: "/simplemath.jpg",
         technologies: ["HTML", "CSS", "JavaScript", "Python"],
         githubUrl: "https://github.com/yahskamrahs",
         liveUrl: "https://yahskamrahs.github.io/simplemath/"
@@ -32,7 +32,7 @@ const categories = [
       {
         title: "TicTacToe Game",
         description: "A TicTacToe game with Unbeatable bot player",
-        image: "public/tictactoe.jpg",
+        image: "/tictactoe.jpg",
         technologies: ["HTML", "CSS", "Javascript", "Python"],
         githubUrl: "https://github.com/yahskamrahs",
         liveUrl: "https://yahskamrahs.github.io/tictactoe/"
@@ -45,7 +45,7 @@ const categories = [
       {
         title: "Car Crash Detection",
         description: "Detects and alerts the system after accident.",
-        image: "public/car.jpg",
+        image: "/car.jpg",
         technologies: ["Python", "OpenCV", "Pytorch","AI/ML"],
         githubUrl: "https://github.com/yahskamrahs/crash",
         liveUrl: "https://github.com/yahskamrahs/crash"
@@ -53,7 +53,7 @@ const categories = [
       {
         title: "Gesture Detection",
         description: "Analyze and detects hand genstures",
-        image: "public/hand.gif",
+        image: "/hand.gif",
         technologies: ["Python", "OpenCV", "Pytorch", "AI/ML"],
         githubUrl: "https://github.com/yahskamrahs/facedetection",
         liveUrl: "https://github.com/yahskamrahs/facedetection"
@@ -61,7 +61,7 @@ const categories = [
       {
         title: "Face Detection",
         description: "Analyze and detects the Face & person",
-        image: "public/face.jpg",
+        image: "/face.jpg",
         technologies: ["Python", "OpenCV", "Pytorch", "AI/ML"],
         githubUrl: "https://github.com/yahskamrahs/facedetection",
         liveUrl: "https://github.com/yahskamrahs/facedetection"
@@ -69,7 +69,7 @@ const categories = [
       {
         title: "Face ID Attendance",
         description: "Detects face and tracks attendance.",
-        image: "public/attendance.jpg",
+        image: "/attendance.jpg",
         technologies: ["Python", "OpenCV", "Pytorch", "AI/ML"],
         githubUrl: "https://github.com/yahskamrahs/attendance",
         liveUrl: "https://github.com/yahskamrahs/attendance"
@@ -77,7 +77,7 @@ const categories = [
       {
         title: "Weather App",
         description: "Shows current weather with temperature and humidity",
-        image: "public/weather-app.jpg",
+        image: "/weather-app.jpg",
         technologies: ["Python", "Pyttsx3 module", "Json"],
         githubUrl: "https://github.com/yahskamrahs/Weather-App",
         liveUrl: "https://github.com/yahskamrahs/Weather-App"
@@ -85,7 +85,7 @@ const categories = [
       {
         title: "Text-To-Speech",
         description: "Converts text to speech.Helful for mute person",
-        image: "public/Text-To-Speech.jpg",
+        image: "/Text-To-Speech.jpg",
         technologies: ["Python", "Pyttsx3 module", "PIP"],
         githubUrl: "https://github.com/yahskamrahs/Text-To-Speech",
         liveUrl: "https://github.com/yahskamrahs/Text-To-Speech"
@@ -93,7 +93,7 @@ const categories = [
       {
         title: "PDF Merger",
         description: "Helps to merge multiple pdfs into one",
-        image: "public/merge-pdf.jpg",
+        image: "/merge-pdf.jpg",
         technologies: ["Python", "PyPDF2 module", "Merger"],
         githubUrl: "https://github.com/yahskamrahs/pdfmerger",
         liveUrl: "https://github.com/yahskamrahs/pdfmerger"
@@ -101,7 +101,7 @@ const categories = [
       {
         title: "Image resizer",
         description: "Reduces the size of an image in multple formats",
-        image: "public/image-resizer.jpg",
+        image: "/image-resizer.jpg",
         technologies: ["Python", "OpenCV module", "CV2"],
         githubUrl: "https://github.com/yahskamrahs/Image-Resizer",
         liveUrl: "https://github.com/yahskamrahs/Image-Resizer"
