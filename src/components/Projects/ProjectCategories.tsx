@@ -104,7 +104,7 @@ const categories = [
         image: "/image-resizer.jpg",
         technologies: ["Python", "OpenCV module", "CV2"],
         githubUrl: "https://github.com/yahskamrahs/Image-Resizer",
-        liveUrl: "https://github.com/yahskamrahs/Image-Resizer"
+        liveUrl: "https://imager-resizer.vercel.app/"
       },
     ]
   }
